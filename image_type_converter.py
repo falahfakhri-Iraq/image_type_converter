@@ -21,9 +21,9 @@ Convert to 16-bit int. int16 -32768 to 32767
 """
 
 
-data = "D:/Australia_Project\image_data/flood_18_03_2021_Descending_mode/GRD/resampled_data_F1/sigma0_S1A_IW_GRDH_1SDV_20210324_21DF_VH.tif"
+data = "Input.tif"
 
-outfn = "D:/Australia_Project/image_data/flood_18_03_2021_Descending_mode/GRD/resampled_data_F1/Image_converted.tif"
+outfn = "output.tif"
 
 from skimage import (img_as_float,
                     img_as_ubyte,
